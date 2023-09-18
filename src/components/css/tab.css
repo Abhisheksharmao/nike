@@ -1,0 +1,31 @@
+*{
+    list-style: none;
+    text-decoration: none;
+    font-family: sans-serif;
+}
+.tab_context{
+    display: grid;
+    grid-gap: 50px;
+    grid-template-columns: 200px 200px 200px;
+    margin-left: 50px;
+
+}
+.tem{
+    display: flex;
+    justify-content: space-between;
+    background: rgb(9, 9, 9);
+    color: white;
+    padding-top: 20px;
+}
+table{
+    cursor: pointer;
+}
+.ico>ul{
+    display: flex;
+    margin: 10px;
+    text-indent: 50px;
+    cursor: pointer;
+}
+.ico>ul>li:hover{
+    filter: drop-shadow(10px 10px 10px gray);
+}

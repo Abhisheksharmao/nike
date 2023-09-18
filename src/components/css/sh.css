@@ -1,0 +1,32 @@
+.block {
+    display: grid;
+    grid-gap: 80px;
+    grid-template-columns: 500px 500px;
+    margin-top: 50px;
+    margin-right: 10px;
+    margin-left: 100px;
+}
+
+.prev-one {
+    margin-left: 100px;
+}
+
+.first_prev {
+    display: flex;
+    box-sizing: border-box;
+    margin-left: 20px;
+    margin-right: 10px;
+}
+
+.first_prev>.tex>h1 {
+    margin-top: 150px;
+    text-transform: uppercase;
+    background: linear-gradient(to right, #f32170, #ff6b08,
+            #cf23cf, #eedd44);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    background-clip: none;
+}
+.first_prev>.tex>input{
+    background: linear-gradient(to right ,#eedd44 ,#ff6b08);
+}
